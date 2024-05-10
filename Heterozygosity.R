@@ -1,2 +1,2 @@
-a<-scan("CSV File")
+a<-scan("Hendrys.ml")
 a[2]/sum(a)
