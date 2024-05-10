@@ -13,5 +13,5 @@ Original_Willard_Rainbow_Yellow.R is the PCA plot of all original populations co
 
 High_Diversity_PCA_Unedited.R is the PCA plot of all high diversity populations compared to Great Basin National Park stocking sources.
 
-
+FST_HeatMap.R was used to create the heat map of FST values of different Bonneville cutthroat trout populations.
 
