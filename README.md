@@ -15,3 +15,5 @@ High_Diversity_PCA_Unedited.R is the PCA plot of all high diversity populations 
 
 FST_HeatMap.R was used to create the heat map of FST values of different Bonneville cutthroat trout populations.
 
+Heterozygosity.R is an example file that was used to calculate heterozygosity. This was following the tutorial found here "https://www.popgen.dk/angsd/index.php/Heterozygosity"
+
