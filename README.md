@@ -1,19 +1,22 @@
 # Great_Basin_NP_Cutthroat
 This is a repository full of code used for population genetic analysese and corresponding figures made following this tutorial "https://github.com/nt246/lcwgs-guide-tutorial" using low coverage whole genomes from Great Basin National Park Bonneville cutthroat trout. Many of the .sh scripts were used multiple time so file names were subbed in and out. Nulceotide diversity(π) values were calculated from angsd Thetastat and was read into a csv file using angsdr.
 
-Nucleotide_Diversity_RGraphs.R was used to calculate nucleotide diversity(π) according to instructions found in the tutorial. 
+Trimmomatic.sh, deduplicate.sh, Reference_Build.sh, and map_sort_filter.sh represent how raw reads were mapped to the Greenback Cutthroat Trout Reference genome.
 
-Hendrys.py is the graph of historical compared to modern nucleotide diversity(π) in Hendry's Creek.
+SAF.sh, and SFS.sh in conjunction with Nucleotide_Diversity_RGraphs.R were used to calculate nucleotide diversity(π) and Fst according to instructions found in the tutorial. 
 
-Mill.py is the graph of historical compared to modern nucleotide diversity(π) in Mill Creek.
+Plot_nucleotideDiversity.py was used to plot the nucleotide diversity(π) for all populations though Hendrys.py and Mill.py represent how to plot individual populations
+  Hendrys.py is the graph of historical compared to modern nucleotide diversity(π) in Hendry's Creek.
+  Mill.py is the graph of historical compared to modern nucleotide diversity(π) in Mill Creek.
 
-Orginal.py is the graph of all populations and their modern nucleotide diversity(π)
+PCA.sh is an example of a how PCA was conducted in this study.
 
-Original_Willard_Rainbow_Yellow.R is the PCA plot of all original populations compared to Yellowstone cutthroat trout and rainbow trout.
+Original.R is the PCA plot of all original populations compared to other Bonneville Cutthroat Trout.
 
-High_Diversity_PCA_Unedited.R is the PCA plot of all high diversity populations compared to Great Basin National Park stocking sources.
+High_Diversity_PCA_Unedited.R is the PCA plot of all populations sticked with multiple different strains compared to Great Basin National Park stocking sources.
 
-FST_HeatMap.R was used to create the heat map of FST values of different Bonneville cutthroat trout populations.
+FST.R was used to create the heat map of FST values of different Bonneville cutthroat trout populations.
 
 Heterozygosity.R is an example file that was used to calculate heterozygosity. This was following the tutorial found here "https://www.popgen.dk/angsd/index.php/Heterozygosity"
+
 
